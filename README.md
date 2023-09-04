@@ -10,7 +10,7 @@ UIKit 프레임워크는 iOS, iPadOS, tvOS 앱의 핵심 인프라를 구축하�
 
 대부분의 경우 UIKit 요소를 직접 그리거나 편집하기 쉬운 스토리보드와 함께 사용합니다. 이는 강력한 장점이지만 극복하기 어려운 단점도 존재합니다. 우선 스토리보드는 바이너리 형식으로 저장되기 때문에 버전관리 시스템(Git)에서 변경사항을 추적하거나 리뷰를 진행하기 어렵습니다. 그리고 프로젝트의 규모가 커질수록 스토리보드의 사용량도 증가할 수 밖에 없기 때문에 디버깅 및 빌드를 포함해서 파일을 불러오는 시간이 오래 걸릴 수 있습니다. 이는 결과적으로 앱 성능에도 영향을 줄 수 있습니다. 따라서 상황에 따른 적합하고 효율적인 선택을 할 필요가 있다는 것이 본 과정의 생성 배경이며, Programmatic한 적용 방식을 학습합니다. 
 
-UIKit은 SwiftUI 프레임워크와 함께 사용할 수 있습니다. 예를 들어, SwiftUI에서 UIKit 앱의 일부를 구현하거나 두 프레임워크 간의 인터페이스 요소를 혼합하거나 UIKit 뷰와 뷰 컨트롤러를 SwiftUI 뷰 안에 배치할 수 있습니다. `UIViewControllerRepresentable`과 같은 강력한 기능을 사용해서 UIKit의 일부를
+UIKit은 SwiftUI 프레임워크와 함께 사용할 수 있습니다. 예를 들어, SwiftUI에서 UIKit 앱의 일부를 구현하거나 두 프레임워크 간의 인터페이스 요소를 혼합하거나 UIKit 뷰와 뷰 컨트롤러를 SwiftUI 뷰 안에 배치할 수 있습니다. `UIViewControllerRepresentable`과 같은 강력한 기능을 사용해서 UIKit의 일부를 학습합니다.
 
 ## Curriculum
 
@@ -41,9 +41,9 @@ UIKit은 SwiftUI 프레임워크와 함께 사용할 수 있습니다. 예를 �
 
 | No. | Subject  | Original         | Presenter             | Due Date |
 | :-- | :------- |:---------------- | :-------------------- | :------- |
-| 1. | `UIButton` | [Link to page](https://developer.apple.com/documentation/uikit/uibutton) | N/A | N/A |
-| 2. | `UIColorWell` | [Link to page](https://developer.apple.com/documentation/uikit/uicolorwell) | N/A | N/A |
-| 3. | `UIDatePicker` | [Link to page](https://developer.apple.com/documentation/uikit/uidatepicker) | N/A | N/A |
+| 1. | `UIButton` | [Link to page](https://developer.apple.com/documentation/uikit/uibutton) | 진미래 | N/A |
+| 2. | `UIColorWell` | [Link to page](https://developer.apple.com/documentation/uikit/uicolorwell) | 김유진 | N/A |
+| 3. | `UIDatePicker` | [Link to page](https://developer.apple.com/documentation/uikit/uidatepicker) | 이세령 | N/A |
 | 4. | `UIPageControl` | [Link to page](https://developer.apple.com/documentation/uikit/uipagecontrol) | N/A | N/A |
 | 5. | `UISegementedControl` | [Link to page](https://developer.apple.com/documentation/uikit/uisegmentedcontrol) | N/A | N/A |
 | 6. | `UIStepper` | [Link to page](https://developer.apple.com/documentation/uikit/uistepper) | N/A | N/A |

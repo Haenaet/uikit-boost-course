@@ -21,9 +21,9 @@ UIKit은 SwiftUI 프레임워크와 원활하게 작동하므로 SwiftUI에서 U
 
 > **Important**
 >
-> UIKit Boost Course의 학습내용은 기본적으로 [Apple Documentation](https://developer.apple.com/documentation/uikit)을 따릅니다.
+> 1. UIKit Boost Course의 학습내용은 기본적으로 [Apple Documentation](https://developer.apple.com/documentation/uikit)을 따릅니다.
 >
-> 단, <span style="color: #58A4B0">Beta</span>, <span style="color: #FA824C">Deprecated</span>의 내용은 다루지 않습니다.
+> 2. <span style="color: #58A4B0">Beta</span>, <span style="color: #FA824C">Deprecated</span>의 내용은 다루지 않습니다.
 
 ### UIControl
 
@@ -34,14 +34,14 @@ UIKit은 SwiftUI 프레임워크와 원활하게 작동하므로 SwiftUI에서 U
   class UIControl: UIView
 ```
 
-| No. | Subject     | Presenter          | Due Date|
-| :-- | :------- | :-------------------- |:------- |
-| 1. | `UIButton` | N/A | N/A |
-| 2. | `UIColorWell` | N/A | N/A |
-| 3. | `UIDatePicker` | N/A | N/A |
-| 4. | `UIPageControl` | N/A | N/A |
-| 5. | `UISegementedControl` | N/A | N/A |
-| 6. | `UIStepper` | N/A | N/A |
-| 7. | `UISwitch` | N/A | N/A |
-| 8. | `UITextField` | N/A | N/A |
-| 9. | `UISearchTextField` | N/A | N/A |
+| No. | Subject  | Original         | Presenter             | Due Date |
+| :-- | :------- |:---------------- | :-------------------- | :------- |
+| 1. | `UIButton` | [Link to page](https://developer.apple.com/documentation/uikit/uibutton) | N/A | N/A |
+| 2. | `UIColorWell` | [Link to page](https://developer.apple.com/documentation/uikit/uicolorwell) | N/A | N/A |
+| 3. | `UIDatePicker` | [Link to page](https://developer.apple.com/documentation/uikit/uidatepicker) | N/A | N/A |
+| 4. | `UIPageControl` | [Link to page](https://developer.apple.com/documentation/uikit/uipagecontrol) | N/A | N/A |
+| 5. | `UISegementedControl` | [Link to page](https://developer.apple.com/documentation/uikit/uisegmentedcontrol) | N/A | N/A |
+| 6. | `UIStepper` | [Link to page](https://developer.apple.com/documentation/uikit/uistepper) | N/A | N/A |
+| 7. | `UISwitch` | [Link to page](https://developer.apple.com/documentation/uikit/uiswitch) | N/A | N/A |
+| 8. | `UITextField` | [Link to page](https://developer.apple.com/documentation/uikit/uitextfield) |N/A | N/A |
+| 9. | `UISearchTextField` | [Link to page](https://developer.apple.com/documentation/uikit/uisearchtextfield) | N/A | N/A |

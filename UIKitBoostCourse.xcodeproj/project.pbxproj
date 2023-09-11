@@ -14,6 +14,7 @@
 		1C98C6562AA4A8DF0029AAAA /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C6542AA4A8DF0029AAAA /* BaseUIViewController.swift */; };
 		1C98C6592AA4A9CF0029AAAA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C6582AA4A9CF0029AAAA /* RootViewController.swift */; };
 		1C98C65C2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C65B2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift */; };
+		D8A22D732AAF44B700114390 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A22D722AAF44B700114390 /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		1C98C6582AA4A9CF0029AAAA /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1C98C65B2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresenter.swift; sourceTree = "<group>"; };
 		1C98C65D2AA4BE5B0029AAAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D8A22D722AAF44B700114390 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				1C98C65D2AA4BE5B0029AAAA /* README.md */,
+				D8A22D722AAF44B700114390 /* UIButton.swift */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				1C98C65C2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift in Sources */,
 				1C98C6592AA4A9CF0029AAAA /* RootViewController.swift in Sources */,
 				1C98C6422AA48D9D0029AAAA /* SceneDelegate.swift in Sources */,
+				D8A22D732AAF44B700114390 /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

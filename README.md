@@ -41,11 +41,11 @@ UIKit은 SwiftUI 프레임워크와 함께 사용할 수 있습니다. 예를 �
 
 | No. | Subject  | Original         | Presenter             | Status |
 | :-- | :------- |:---------------- | :-------------------- | :----: |
-| 1. | `UIButton` | [Link to page](https://developer.apple.com/documentation/uikit/uibutton) | 진미래 | N/A |
+| 1. | `UIButton` | [Link to page](https://developer.apple.com/documentation/uikit/uibutton) | 진미래 | 🚧 |
 | 2. | `UIColorWell` | [Link to page](https://developer.apple.com/documentation/uikit/uicolorwell) | 김유진 | ✅ |
 | 3. | `UIDatePicker` | [Link to page](https://developer.apple.com/documentation/uikit/uidatepicker) | 이세령 | ✅ |
-| 4. | `UIPageControl` | [Link to page](https://developer.apple.com/documentation/uikit/uipagecontrol) | 이세령 | N/A |
-| 5. | `UISegementedControl` | [Link to page](https://developer.apple.com/documentation/uikit/uisegmentedcontrol) | 김유진 | N/A |
+| 4. | `UIPageControl` | [Link to page](https://developer.apple.com/documentation/uikit/uipagecontrol) | 이세령 | 🚧 |
+| 5. | `UISegementedControl` | [Link to page](https://developer.apple.com/documentation/uikit/uisegmentedcontrol) | 김유진 | 🚧 |
 | 6. | `UIStepper` | [Link to page](https://developer.apple.com/documentation/uikit/uistepper) | N/A | N/A |
 | 7. | `UISwitch` | [Link to page](https://developer.apple.com/documentation/uikit/uiswitch) | N/A | N/A |
 | 8. | `UITextField` | [Link to page](https://developer.apple.com/documentation/uikit/uitextfield) |N/A | N/A |

@@ -14,7 +14,7 @@
 		1C98C6562AA4A8DF0029AAAA /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C6542AA4A8DF0029AAAA /* BaseUIViewController.swift */; };
 		1C98C6592AA4A9CF0029AAAA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C6582AA4A9CF0029AAAA /* RootViewController.swift */; };
 		1C98C65C2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C65B2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift */; };
-		C30E3EA92AAED96200F713F6 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E3EA82AAED96200F713F6 /* DatePickerViewController.swift */; };
+		C30E3EA92AAED96200F713F6 /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		1C98C6582AA4A9CF0029AAAA /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1C98C65B2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresenter.swift; sourceTree = "<group>"; };
 		1C98C65D2AA4BE5B0029AAAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C30E3EA82AAED96200F713F6 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,6 @@
 				1C98C6582AA4A9CF0029AAAA /* RootViewController.swift */,
 				1C98C63F2AA48D9D0029AAAA /* AppDelegate.swift */,
 				1C98C6402AA48D9D0029AAAA /* SceneDelegate.swift */,
-				C30E3EA82AAED96200F713F6 /* DatePickerViewController.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -105,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				1C98C65D2AA4BE5B0029AAAA /* README.md */,
+				C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 				1C98C6412AA48D9D0029AAAA /* AppDelegate.swift in Sources */,
 				1C98C6562AA4A8DF0029AAAA /* BaseUIViewController.swift in Sources */,
 				1C98C65C2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift in Sources */,
-				C30E3EA92AAED96200F713F6 /* DatePickerViewController.swift in Sources */,
+				C30E3EA92AAED96200F713F6 /* UIDatePicker.swift in Sources */,
 				1C98C6592AA4A9CF0029AAAA /* RootViewController.swift in Sources */,
 				1C98C6422AA48D9D0029AAAA /* SceneDelegate.swift in Sources */,
 			);

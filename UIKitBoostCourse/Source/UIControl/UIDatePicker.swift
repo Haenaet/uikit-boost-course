@@ -7,14 +7,16 @@
 
 import UIKit
 
-class DatePickerViewController: BaseUIViewController {
+class UIDatePickerViewController: BaseUIViewController {
     let datePicker: UIDatePicker = {
         let datePicker = UIDatePicker()
         datePicker.datePickerMode = .dateAndTime //Mode종류: time, date, dateAndTime, countDownTimer
-        datePicker.preferredDatePickerStyle = .compact //Style종류: wheels, inline, compact, automatic
-        datePicker.locale = Locale(identifier: "ko-KR") //국가 설정(설정안하면 아이폰 기본설정 사용)
-        datePicker.minuteInterval = 1  //시간 설정 분 단위 간격 조절(기본값은 1분) - 60이내의 값 입력해야함
-        datePicker.date = Date(timeIntervalSinceNow: -3600 * 24 * 3) //현재 날짜 기준 3일전 날짜로 선택되어 시작함
+        datePicker.preferredDatePickerStyle = .wheels //Style종류: wheels, inline, compact, automatic
+        datePicker.locale = Locale(identifier: "en-US") //국가 설정(설정안하면 아이폰 기본설정 사용)
+        datePicker.minuteInterval = 30  //시간 설정 분 단위 간격 조절(기본값은 1분)
+        datePicker.date = Date(timeIntervalSinceNow: -3600 * 24 * 5)
+        //현재 날짜 기준 3일전 날짜로 선택되어 시작함
+        //단, datePickerMode가 countDownTimer로 설정되어 있으면 작동하지 않음
         datePicker.timeZone = .autoupdatingCurrent  //현재 시간에 맞게 자동으로 업데이트
         datePicker.translatesAutoresizingMaskIntoConstraints = false
         
@@ -33,9 +35,10 @@ class DatePickerViewController: BaseUIViewController {
         //wheel모드에서는 지정해놓은 날짜 이상, 이하로 스크롤할 경우 기본값으로 돌아옴
         //compact, inline모드에서는 선택할 수 없는 날짜가 연한 회색으로 비활성화 됨
         var components = DateComponents()
-        components.day = 7
+        
+        components.day = 10
         let maxDate = Calendar.autoupdatingCurrent.date(byAdding: components, to: Date())
-        components.day = -7
+        components.day = -10
         let minDate = Calendar.autoupdatingCurrent.date(byAdding: components, to: Date())
         
         datePicker.maximumDate = maxDate

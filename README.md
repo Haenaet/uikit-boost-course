@@ -50,3 +50,24 @@ UIKit은 SwiftUI 프레임워크와 함께 사용할 수 있습니다. 예를 �
 | 7. | `UISwitch` | [Link to page](https://developer.apple.com/documentation/uikit/uiswitch) | N/A | N/A |
 | 8. | `UITextField` | [Link to page](https://developer.apple.com/documentation/uikit/uitextfield) |N/A | N/A |
 | 9. | `UISearchTextField` | [Link to page](https://developer.apple.com/documentation/uikit/uisearchtextfield) | 진미래 | 🚧 |
+
+### Chapter2: UIView
+
+- `UIView`를 상속받은 요소를 학습합니다.
+
+```Swift
+  @MainActor
+  class UIView: UIResponder
+```
+
+| No. | Subject  | Original         | Presenter             | Status |
+| :-- | :------- |:---------------- | :-------------------- | :----: |
+| 1. | `UIStackView` | [Link to page](https://developer.apple.com/documentation/uikit/uistackview) | N/A | N/A |
+| 2. | `UIContentUnavailableView` | [Link to page](https://developer.apple.com/documentation/uikit/uicontentunavailableview) | N/A | N/A |
+| 3. | `UICalendarView` | [Link to page](https://developer.apple.com/documentation/uikit/uicalendarview) | N/A | N/A |
+| 4. | `UIActivityIndicatorView` | [Link to page](https://developer.apple.com/documentation/uikit/uiactivityindicatorview) | N/A | N/A |
+| 5. | `UIImageView` | [Link to page](https://developer.apple.com/documentation/uikit/uiimageview) | N/A | N/A |
+| 6. | `UITextView` | [Link to page](https://developer.apple.com/documentation/uikit/uitextview) | N/A | N/A |
+| 7. | `UIProgressView` | [Link to page](https://developer.apple.com/documentation/uikit/uiprogressview) | N/A | N/A |
+| 8. | `UIPickerView` | [Link to page](https://developer.apple.com/documentation/uikit/uipickerview) |N/A | N/A |
+| 9. | `UIScrollView` | [Link to page](https://developer.apple.com/documentation/uikit/uiscrollview) | N/A | N/A |

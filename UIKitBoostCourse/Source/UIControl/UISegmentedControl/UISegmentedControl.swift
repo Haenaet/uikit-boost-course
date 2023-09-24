@@ -120,18 +120,18 @@ extension UISegmentedControlViewController {
         let selectedSegmentIndex = control.selectedSegmentIndex
         
         switch selectedSegmentIndex {
-            case 0:
-                resultLabel.text = "코알라다!"
-            case 1:
-                resultLabel.text = "동그라미다!"
-            case 2:
-                resultLabel.text = "펭귄이다!"
-            case 3:
-                resultLabel.text = "네모다!"
-            case 4:
-                resultLabel.text = "돌고래다!"
-            default:
-                break
+        case 0:
+            resultLabel.text = "코알라다!"
+        case 1:
+            resultLabel.text = "동그라미다!"
+        case 2:
+            resultLabel.text = "펭귄이다!"
+        case 3:
+            resultLabel.text = "네모다!"
+        case 4:
+            resultLabel.text = "돌고래다!"
+        default:
+            break
         }
     }
     

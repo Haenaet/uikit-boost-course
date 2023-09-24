@@ -50,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C7E9A022AC026E200C808FE /* UISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				1C5BB6DE2AB8889D0033B6C8 /* UISegmentedControl.swift */,
+			);
+			path = UISegmentedControl;
+			sourceTree = "<group>";
+		};
 		1C98C61E2AA48D280029AAAA = {
 			isa = PBXGroup;
 			children = (
@@ -109,11 +117,11 @@
 		1C98C64E2AA4A8090029AAAA /* UIControl */ = {
 			isa = PBXGroup;
 			children = (
+				1C7E9A022AC026E200C808FE /* UISegmentedControl */,
 				1C98C65D2AA4BE5B0029AAAA /* README.md */,
 				D8A22D722AAF44B700114390 /* UIButtonController.swift */,
 				C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */,
 				1C5004322AAAB4B300DBE27E /* UIColorWell.swift */,
-				1C5BB6DE2AB8889D0033B6C8 /* UISegmentedControl.swift */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";

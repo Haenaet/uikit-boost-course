@@ -9,6 +9,7 @@ import UIKit
 
 class UIPageControlViewController: BaseUIViewController, UIScrollViewDelegate {
     var pageControl: UIPageControl = {
+        
         let pageControl = UIPageControl()
         
         //pageControl 점의 개수
@@ -17,7 +18,7 @@ class UIPageControlViewController: BaseUIViewController, UIScrollViewDelegate {
         //현재 pageControl의 위치
         pageControl.currentPage = 1
         
-        //페이지가 하나일 때 pageControl을 숨길지 여부 설정(페이지가 하나이면 굳이 보여줄 필요가 없어서 true로 설정)
+        //페이지가 하나일 때 pageControl을 숨길지 여부 선택(페이지가 하나이면 굳이 보여줄 필요가 없어서 true로 설정)
         pageControl.hidesForSinglePage = true
         
         //pageControl 점의 색상
@@ -59,13 +60,14 @@ class UIPageControlViewController: BaseUIViewController, UIScrollViewDelegate {
         
         //scrollIndicator 보여지는 여부 설정
         scrollView.showsHorizontalScrollIndicator = false
-        //scrollView.showsVerticalScrollIndicator = false
-        
+
+        //width에는 pageControl개수만큼 *해줌
         scrollView.contentSize = CGSize(width: UIScreen.main.bounds.width * 5, height: UIScreen.main.bounds.height)
         
         //스크롤이 한 페이지씩 되게 설정
         scrollView.isPagingEnabled = true
         
+        //scroll범위에 따라 pageControl 값을 바꿔주기 위한 delegate
         scrollView.delegate = self
         
         scrollView.frame = .init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)

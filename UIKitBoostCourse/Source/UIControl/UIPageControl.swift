@@ -34,14 +34,14 @@ class UIPageControlViewController: BaseUIViewController, UIScrollViewDelegate {
         pageControl.frame = CGRect(x: 100, y: 100, width: 100, height: 50)
         
         //아래 세가지는 available iOS 14.0
-        //배경스타일: prominent - 반투명, minimal - 투명
+        //배경스타일: prominent - 반투명, minimal - 투명, automatic
         pageControl.backgroundStyle = .prominent
         
         //꾹 눌러서 페이지 이동 연속적으로 가능하게 할 때 사용
         pageControl.allowsContinuousInteraction = true
         
         //점 이미지 변경 가능
-        pageControl.preferredIndicatorImage = UIImage.init(systemName: "heart.fill")
+        pageControl.preferredIndicatorImage = UIImage.init(systemName: "heart")
         
         //indicator Image 커스텀 - 특정 페이지만 이미지 설정 가능 but 여러개 이미지 사용은 지양하는 것이 좋음
         let myImage = UIImage(systemName: "star")
@@ -59,7 +59,7 @@ class UIPageControlViewController: BaseUIViewController, UIScrollViewDelegate {
         let scrollView = UIScrollView()
         
         //scrollIndicator 보여지는 여부 설정
-        scrollView.showsHorizontalScrollIndicator = false
+        scrollView.showsHorizontalScrollIndicator = true
 
         //width에는 pageControl개수만큼 *해줌
         scrollView.contentSize = CGSize(width: UIScreen.main.bounds.width * 5, height: UIScreen.main.bounds.height)

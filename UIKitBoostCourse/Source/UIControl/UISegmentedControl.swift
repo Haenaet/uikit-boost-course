@@ -37,6 +37,8 @@ class UISegmentedControlViewController: BaseUIViewController {
         setResultLabel(resultLabel)
         setResultView(resultView)
         view.addSubview(resultView)
+        
+        managingSegmentedControl(withStringItems)
     }
     
     override func setLayout() {
@@ -78,13 +80,13 @@ extension UISegmentedControlViewController {
         control.selectedSegmentIndex = 0
         /// `true`인 경우 사용자의 터치 이벤트가 종료되면 다시 선택이 해제
         /// `false`인 경우 사용자의 터치 이벤트가 종료되어도 선택이 유지
-        control.isMomentary = false
+        control.isMomentary = true
         /// 특정 세그먼트를 비활성화할 수 있는 메서드
         control.setEnabled(false, forSegmentAt: 0)
         /// `forSegmentAt`에 위치한 세그먼트의 offset을 조정하는 메서드
         control.setContentOffset(CGSize(width: 0, height: 0), forSegmentAt: 0)
         /// 너비를 설정할 수 있는 메서드
-        control.setWidth(0.0, forSegmentAt: 0)
+        control.setWidth(0, forSegmentAt: 0)
         /// `true`이면 각 세그먼트의 값에 따라 너비를 자동으로 조절
         /// `false`이면 동일한 너비로 설정
         control.apportionsSegmentWidthsByContent = false

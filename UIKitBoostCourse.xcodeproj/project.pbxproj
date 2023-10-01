@@ -19,6 +19,7 @@
 		1C98C65C2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C65B2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift */; };
 		1CCBC1152AC9667B00B261CF /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCBC1142AC9667B00B261CF /* UIView+AddSubviews.swift */; };
 		1CCBC1172AC9671D00B261CF /* UIStackView+AddArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCBC1162AC9671D00B261CF /* UIStackView+AddArrangedSubviews.swift */; };
+		1CCBC1192AC9681700B261CF /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCBC1182AC9681700B261CF /* UITextField.swift */; };
 		C30E3EA92AAED96200F713F6 /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */; };
 		C39345D82AB756B1005DF1D3 /* UIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39345D72AB756B0005DF1D3 /* UIPageControl.swift */; };
 		D8A22D732AAF44B700114390 /* UIButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A22D722AAF44B700114390 /* UIButtonController.swift */; };
@@ -42,6 +43,7 @@
 		1C98C65D2AA4BE5B0029AAAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1CCBC1142AC9667B00B261CF /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
 		1CCBC1162AC9671D00B261CF /* UIStackView+AddArrangedSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+AddArrangedSubviews.swift"; sourceTree = "<group>"; };
+		1CCBC1182AC9681700B261CF /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePicker.swift; sourceTree = "<group>"; };
 		C39345D72AB756B0005DF1D3 /* UIPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControl.swift; sourceTree = "<group>"; };
 		D8A22D722AAF44B700114390 /* UIButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				C39345D72AB756B0005DF1D3 /* UIPageControl.swift */,
 				1C5004322AAAB4B300DBE27E /* UIColorWell.swift */,
 				1C7E9A032AC06BDA00C808FE /* UIStepper.swift */,
+				1CCBC1182AC9681700B261CF /* UITextField.swift */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				C39345D82AB756B1005DF1D3 /* UIPageControl.swift in Sources */,
 				C30E3EA92AAED96200F713F6 /* UIDatePicker.swift in Sources */,
 				1C98C6592AA4A9CF0029AAAA /* RootViewController.swift in Sources */,
+				1CCBC1192AC9681700B261CF /* UITextField.swift in Sources */,
 				1CCBC1152AC9667B00B261CF /* UIView+AddSubviews.swift in Sources */,
 				1C98C6422AA48D9D0029AAAA /* SceneDelegate.swift in Sources */,
 				D8A22D732AAF44B700114390 /* UIButtonController.swift in Sources */,

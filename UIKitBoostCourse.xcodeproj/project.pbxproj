@@ -23,6 +23,7 @@
 		1CCBC1172AC9671D00B261CF /* UIStackView+AddArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCBC1162AC9671D00B261CF /* UIStackView+AddArrangedSubviews.swift */; };
 		C30E3EA92AAED96200F713F6 /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */; };
 		C39345D82AB756B1005DF1D3 /* UIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39345D72AB756B0005DF1D3 /* UIPageControl.swift */; };
+		C393460E2AC87A46005DF1D3 /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C393460D2AC87A46005DF1D3 /* UISwitch.swift */; };
 		D8A22D732AAF44B700114390 /* UIButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A22D722AAF44B700114390 /* UIButtonController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		1CCBC1162AC9671D00B261CF /* UIStackView+AddArrangedSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+AddArrangedSubviews.swift"; sourceTree = "<group>"; };
 		C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePicker.swift; sourceTree = "<group>"; };
 		C39345D72AB756B0005DF1D3 /* UIPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControl.swift; sourceTree = "<group>"; };
+		C393460D2AC87A46005DF1D3 /* UISwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitch.swift; sourceTree = "<group>"; };
 		D8A22D722AAF44B700114390 /* UIButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 				1C5004322AAAB4B300DBE27E /* UIColorWell.swift */,
 				D87BE9432AC8506F003CD151 /* UISearchField.swift */,
 				1C7E9A032AC06BDA00C808FE /* UIStepper.swift */,
+				C393460D2AC87A46005DF1D3 /* UISwitch.swift */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				D87BE9442AC8506F003CD151 /* UISearchField.swift in Sources */,
 				1CCBC1152AC9667B00B261CF /* UIView+AddSubviews.swift in Sources */,
 				1C98C6422AA48D9D0029AAAA /* SceneDelegate.swift in Sources */,
+				C393460E2AC87A46005DF1D3 /* UISwitch.swift in Sources */,
 				D8A22D732AAF44B700114390 /* UIButtonController.swift in Sources */,
 				1C5BB6DF2AB8889D0033B6C8 /* UISegmentedControl.swift in Sources */,
 			);

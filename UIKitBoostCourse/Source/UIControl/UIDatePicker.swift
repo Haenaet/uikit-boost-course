@@ -19,7 +19,7 @@ class UIDatePickerViewController: BaseUIViewController {
         //단, datePickerMode가 countDownTimer로 설정되어 있으면 작동하지 않음
         datePicker.timeZone = .autoupdatingCurrent  //현재 시간에 맞게 자동으로 업데이트
         datePicker.translatesAutoresizingMaskIntoConstraints = false
-        
+
         return datePicker
     }()
 
@@ -30,21 +30,21 @@ class UIDatePickerViewController: BaseUIViewController {
         setLayout()
         minimumDate()
     }
-    
+
     private func minimumDate() {
         //wheel모드에서는 지정해놓은 날짜 이상, 이하로 스크롤할 경우 기본값으로 돌아옴
         //compact, inline모드에서는 선택할 수 없는 날짜가 연한 회색으로 비활성화 됨
         var components = DateComponents()
-        
+
         components.day = 10
         let maxDate = Calendar.autoupdatingCurrent.date(byAdding: components, to: Date())
         components.day = -10
         let minDate = Calendar.autoupdatingCurrent.date(byAdding: components, to: Date())
-        
+
         datePicker.maximumDate = maxDate
         datePicker.minimumDate = minDate
     }
-    
+
     override func setLayout() {
         NSLayoutConstraint.activate([
             datePicker.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -52,15 +52,8 @@ class UIDatePickerViewController: BaseUIViewController {
             datePicker.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
     }
-    
+
     override func setUI() {
         view.addSubview(datePicker)
     }
 }
-
-
-
-
-
-
-

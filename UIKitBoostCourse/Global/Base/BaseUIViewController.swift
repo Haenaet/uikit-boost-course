@@ -24,7 +24,7 @@ class BaseUIViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
     }
-    
+
     /// UI 컴포넌트 설정을 위한 사용자 정의 함수
     func setUI() {}
     

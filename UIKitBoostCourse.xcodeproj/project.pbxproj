@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C5004332AAAB4B300DBE27E /* UIColorWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5004322AAAB4B300DBE27E /* UIColorWell.swift */; };
 		1C5BB6DF2AB8889D0033B6C8 /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5BB6DE2AB8889D0033B6C8 /* UISegmentedControl.swift */; };
+		1C5E82632ACD0E94007B3F40 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1C5E82622ACD0E94007B3F40 /* README.md */; };
 		1C7E9A042AC06BDA00C808FE /* UIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E9A032AC06BDA00C808FE /* UIStepper.swift */; };
 		1C98C6412AA48D9D0029AAAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C63F2AA48D9D0029AAAA /* AppDelegate.swift */; };
 		1C98C6422AA48D9D0029AAAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C6402AA48D9D0029AAAA /* SceneDelegate.swift */; };
@@ -17,18 +18,18 @@
 		1C98C6562AA4A8DF0029AAAA /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C6542AA4A8DF0029AAAA /* BaseUIViewController.swift */; };
 		1C98C6592AA4A9CF0029AAAA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C6582AA4A9CF0029AAAA /* RootViewController.swift */; };
 		1C98C65C2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C98C65B2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift */; };
-		C30E3EA92AAED96200F713F6 /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */; };
-		D87BE9442AC8506F003CD151 /* UISearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BE9432AC8506F003CD151 /* UISearchField.swift */; };
 		1CCBC1152AC9667B00B261CF /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCBC1142AC9667B00B261CF /* UIView+AddSubviews.swift */; };
 		1CCBC1172AC9671D00B261CF /* UIStackView+AddArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCBC1162AC9671D00B261CF /* UIStackView+AddArrangedSubviews.swift */; };
 		C30E3EA92AAED96200F713F6 /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */; };
 		C39345D82AB756B1005DF1D3 /* UIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39345D72AB756B0005DF1D3 /* UIPageControl.swift */; };
+		D87BE9442AC8506F003CD151 /* UISearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87BE9432AC8506F003CD151 /* UISearchField.swift */; };
 		D8A22D732AAF44B700114390 /* UIButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A22D722AAF44B700114390 /* UIButtonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C5004322AAAB4B300DBE27E /* UIColorWell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorWell.swift; sourceTree = "<group>"; };
 		1C5BB6DE2AB8889D0033B6C8 /* UISegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControl.swift; sourceTree = "<group>"; };
+		1C5E82622ACD0E94007B3F40 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1C7E9A032AC06BDA00C808FE /* UIStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepper.swift; sourceTree = "<group>"; };
 		1C98C6272AA48D290029AAAA /* UIKitBoostCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitBoostCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C98C6382AA48D290029AAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,12 +43,11 @@
 		1C98C6582AA4A9CF0029AAAA /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1C98C65B2AA4AAD80029AAAA /* UIViewControllerRepresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresenter.swift; sourceTree = "<group>"; };
 		1C98C65D2AA4BE5B0029AAAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePicker.swift; sourceTree = "<group>"; };
-		D87BE9432AC8506F003CD151 /* UISearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchField.swift; sourceTree = "<group>"; };
 		1CCBC1142AC9667B00B261CF /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
 		1CCBC1162AC9671D00B261CF /* UIStackView+AddArrangedSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+AddArrangedSubviews.swift"; sourceTree = "<group>"; };
 		C30E3EA82AAED96200F713F6 /* UIDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePicker.swift; sourceTree = "<group>"; };
 		C39345D72AB756B0005DF1D3 /* UIPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControl.swift; sourceTree = "<group>"; };
+		D87BE9432AC8506F003CD151 /* UISearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISearchField.swift; sourceTree = "<group>"; };
 		D8A22D722AAF44B700114390 /* UIButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C5E82612ACD0E94007B3F40 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				1C5E82622ACD0E94007B3F40 /* README.md */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		1C98C61E2AA48D280029AAAA = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +120,7 @@
 		1C98C6482AA4A62D0029AAAA /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1C5E82612ACD0E94007B3F40 /* UIView */,
 				1C98C64E2AA4A8090029AAAA /* UIControl */,
 				1C98C64F2AA4A87A0029AAAA /* README.md */,
 			);
@@ -227,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5E82632ACD0E94007B3F40 /* README.md in Resources */,
 				1C98C6472AA4A5A60029AAAA /* Assets.xcassets in Resources */,
 				1C98C6462AA4A5A60029AAAA /* LaunchScreen.storyboard in Resources */,
 			);
